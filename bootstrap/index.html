@@ -15,7 +15,7 @@
 
                 .container {
                     background: url("images/container.png");
-                    width: 1262px;
+                    width: 1270px;
                     margin: 0 auto;
 
                 }
@@ -84,10 +84,25 @@
                 float: left;
                 }
 
-                .home-product-container:hover{
+                .home-banner img {
+                    position: absolute;
+                    top: 50%;
+                    -ms-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    left: 0;
+                    right: 0;
+                    margin: 0!important;
+                }
+
+                /*.home-banner img:hover{
                     opacity: 1;
                 }
 
+                 .thumbnail a>img, .thumbnail>img {
+                    display: block;
+                    max-width: 100%;
+                    height: auto;
+                }*/
             </style>
         </head>
 
@@ -107,8 +122,7 @@
             <div class="home-product-container">
                 <div class="row">
                     <div class="col-xs-6 col-sm-3 col-md-3" style="background-color: ; position: relative;">
-                        <a href="#" class="home-banner"></a>
-                        <img src="images/1.jpg" alt="Voucher Seoul Garden" />
+                        <a href="#"><img src="images/1.jpg" alt="Seoul Garden" /> </a>
                     </div>
                 </div>
             </div>
@@ -116,8 +130,7 @@
             <div class="home-product-container">
                 <div class="row">
                     <div class="col-xs-6 col-sm-3 col-md-3" style="background-color: ; position: relative;">
-                        <a href="#" class="home-banner"></a>
-                        <img src="images/2.png" alt="Voucher Seoul Garden" />
+                        <a href="#"> <img src="images/2.png" alt="Khám Sức Khỏe Tổng Quát" /> </a>
                     </div>
                 </div>
             </div>
@@ -125,8 +138,7 @@
             <div class="home-product-container">
                 <div class="row">
                     <div class="col-xs-6 col-sm-3 col-md-3" style="background-color: ; position: relative;">
-                        <a href="#" class="home-banner"></a>
-                        <img src="images/3.jpg" alt="Voucher Seoul Garden" />
+                        <a href="#"> <img src="images/3.jpg" alt="[3N2Đ] Tặng Voucher Buffet" /></a>
                     </div>
                 </div>
             </div>
@@ -134,13 +146,15 @@
             <div class="home-product-container">
                 <div class="row">
                     <div class="col-xs-6 col-sm-3 col-md-3" style="background-color: ; position: relative;">
-                        <a href="#"></a>
-                        <img src="images/4.jpg" alt="Voucher Seoul Garden" />
+                        <a href="#">   <img src="images/4.jpg" alt="Du Lịch Biển 2/9" /> </a>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
 
         </body>
     </html>
