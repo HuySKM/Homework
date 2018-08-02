@@ -4,10 +4,143 @@
             <meta charset="UTF-8">
             <title>Bài Tập Về Nhà</title>
             <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css" >
+            <style type="text/css">
 
+                body {
+                    overflow-x: hidden;
+                    position: relative;
+                    font-weight: 400;
+                    font-size: 13px;
+                }
+
+                .container {
+                    background: url("images/container.png");
+                    width: 1262px;
+                    margin: 0 auto;
+
+                }
+
+                .home-title {
+                    font-size: 24px;
+                    font-weight: 300;
+                    padding-left: 12px;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    float: left;
+                    border-left: 6px solid transparent;
+                    position: relative;
+                }
+                .home-title-menu {
+                    list-style: none;
+                    margin: 15px 0;
+                    padding: 0;
+                    overflow: hidden;
+                }
+
+                .home-title-menu>li {
+                    float: left;
+                    border-right: 1px solid hsla(0,0%,59%,.4);
+                    padding: 0 20px;
+                    margin: 5px 0;
+                }
+                .home-title-menu>li>a {
+                    color: #000;
+                    line-height: 16px;
+                }
+
+                .home-title-menu>li>a:hover {
+                    color: #ec971f;
+                }
+                .home-product-container{
+                    padding: 0;
+                    background: 0 0;
+                }
+
+                .row {
+                    margin-left: -8px;
+                    margin-right: -8px;
+                }
+
+                .col-md-3 {
+                    width: 25%;
+                }
+
+                img {
+                    vertical-align: middle;
+                    border: 0;
+                }
+
+                a:hover{
+                    color: #0f0f0f;
+                }
+
+                .home-product-container{
+                background: #fafafa url(images/container.png) no-repeat 50%;
+                background-size: auto 30px;
+                position: relative;
+                overflow: hidden;
+                margin-bottom: 16px;
+                display: block;
+                float: left;
+                }
+
+                .home-product-container:hover{
+                    opacity: 1;
+                }
+
+            </style>
         </head>
 
         <body>
+        <div class="container">
+          <div class="col-xs-12">
+              <h2 class="home-title" style="border-color: #F6A623"> <a href="#">Deals giá sốc</a></h2>
+                  <ul class="home-title-menu">
+                      <li><a href="#">Hot! Voucher 50%++</a></li>
+                      <li><a href="#">Ăn Ngon Chỉ Từ 35K</a></li>
+                      <li><a href="#">Săn Tour Hè Từ 105K</a></li>
+                      <li><a href="#">CSSK Vinmec</a></li>
+                      <li><a href="#">Làm Đẹp Đón Hè</a></li>
+                      <li><a href="#">Giải trí & Dịch vụ khác</a></li>
+                  </ul>
+          </div>
+            <div class="home-product-container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-3 col-md-3" style="background-color: ; position: relative;">
+                        <a href="#" class="home-banner"></a>
+                        <img src="images/1.jpg" alt="Voucher Seoul Garden" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-product-container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-3 col-md-3" style="background-color: ; position: relative;">
+                        <a href="#" class="home-banner"></a>
+                        <img src="images/2.png" alt="Voucher Seoul Garden" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-product-container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-3 col-md-3" style="background-color: ; position: relative;">
+                        <a href="#" class="home-banner"></a>
+                        <img src="images/3.jpg" alt="Voucher Seoul Garden" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-product-container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-3 col-md-3" style="background-color: ; position: relative;">
+                        <a href="#"></a>
+                        <img src="images/4.jpg" alt="Voucher Seoul Garden" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         </body>
     </html>
